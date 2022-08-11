@@ -12,14 +12,14 @@ $ cd docker-php7.4-with-db-extensions
 
 followed by
 ```
-$ docker compose up
+$ docker-compose up
 ```
 
 
 ## Running
 Copy the Git files in your Laravel (or something) proyect and run 
 ```
-$ docker compose up
+$ docker-compose up
 ```
 
 Default web root:
