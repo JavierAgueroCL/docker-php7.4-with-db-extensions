@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Docker/Dockerfile
-    image: digitalocean.com/php
+    image: javieraguerocl/docker-php7.4-with-db-extensions
     restart: unless-stopped
     tty: true
     environment:
